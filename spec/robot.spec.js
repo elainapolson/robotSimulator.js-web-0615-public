@@ -134,6 +134,7 @@ describe("Robot", function() {
     var robot1 = new Robot();
     var robot2 = new Robot();
     var robot3 = new Robot();
+
     robot1.place({x: 0, y: 0, direction: "north"});
     robot2.place({x: 2, y: -7, direction: "east"});
     robot3.place({x: 8, y: 4, direction: "south"});
